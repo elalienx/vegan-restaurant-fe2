@@ -1,13 +1,22 @@
 // NPM packages
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
+
+// Project file
+import categories from "data/categories.json";
 
 export default function Category() {
-  const { category } = useParams();
+  const { categoryId } = useParams();
+
+  // Properties
+  const category = categories.find((item) => item.categoryId === categoryId);
+  console.log("Category.jsx category", category);
+
+  if (category === undefined) return <Link to="/">Menu not found go home</Link>;
 
   return (
     <div id="categoy">
-      <h1>Category 🟢</h1>
-      <span>@{category}@</span>
+      <h1>{category.name}</h1>
+      <p>{category.description}</p>
     </div>
   );
 }

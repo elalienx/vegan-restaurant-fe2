@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "categoryId": "dishes",
+    "name": "Dishes",
+    "description": "Everything from salads to vegan burgers"
+  },
+  {
+    "id": 1,
+    "categoryId": "deserts",
+    "name": "Deserts",
+    "description": "Lacto and egg free deserts."
+  },
+  {
+    "id": 2,
+    "categoryId": "drinks",
+    "name": "Drinks",
+    "description": "Cold drinks for the summer."
+  }
+]
