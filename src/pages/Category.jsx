@@ -9,8 +9,8 @@ export default function Category() {
 
   // Properties
   const category = categories.find((item) => item.categoryId === categoryId);
-  console.log("Category.jsx category", category);
 
+  // Safeguard
   if (category === undefined) return <Link to="/">Menu not found go home</Link>;
 
   return (
