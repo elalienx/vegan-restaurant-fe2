@@ -1,0 +1,182 @@
+[
+  {
+    "id": 0,
+    "categoryId": "deserts",
+    "productId": "pankakes",
+    "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
+    "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+    "imageFullURL": "deserts-pankakes-full.jpg",
+    "imageThumbURL": "deserts-pankakes-thumb.jpg",
+    "ingredients": [
+      { "id": 0, "name": "Brocoli", "icon": "🥦" },
+      { "id": 1, "name": "Carrots", "icon": "🥕" },
+      { "id": 2, "name": "Tomato", "icon": "🍅" }
+    ],
+    "name": "Salad",
+    "nutritionFacts": {
+      "calories": "230",
+      "totalFat": "10%",
+      "cholesterol": "0%"
+    }
+  },
+  {
+    "id": 1,
+    "categoryId": "deserts",
+    "productId": "toasted-berries",
+    "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
+    "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+    "imageFullURL": "deserts-pankakes-full.jpg",
+    "imageThumbURL": "deserts-pankakes-thumb.jpg",
+    "ingredients": [
+      { "id": 0, "name": "Brocoli", "icon": "🥦" },
+      { "id": 1, "name": "Carrots", "icon": "🥕" },
+      { "id": 2, "name": "Tomato", "icon": "🍅" }
+    ],
+    "name": "Salad",
+    "nutritionFacts": {
+      "calories": "230",
+      "totalFat": "10%",
+      "cholesterol": "0%"
+    }
+  },
+  {
+    "id": 2,
+    "categoryId": "deserts",
+    "productId": "velvet-cake",
+    "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
+    "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+    "imageFullURL": "deserts-pankakes-full.jpg",
+    "imageThumbURL": "deserts-pankakes-thumb.jpg",
+    "ingredients": [
+      { "id": 0, "name": "Brocoli", "icon": "🥦" },
+      { "id": 1, "name": "Carrots", "icon": "🥕" },
+      { "id": 2, "name": "Tomato", "icon": "🍅" }
+    ],
+    "name": "Salad",
+    "nutritionFacts": {
+      "calories": "230",
+      "totalFat": "10%",
+      "cholesterol": "0%"
+    }
+  },
+  {
+    "id": 3,
+    "categoryId": "dishes",
+    "productId": "mediterranean-salad",
+    "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
+    "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+    "imageFullURL": "deserts-pankakes-full.jpg",
+    "imageThumbURL": "deserts-pankakes-thumb.jpg",
+    "ingredients": [
+      { "id": 0, "name": "Brocoli", "icon": "🥦" },
+      { "id": 1, "name": "Carrots", "icon": "🥕" },
+      { "id": 2, "name": "Tomato", "icon": "🍅" }
+    ],
+    "name": "Salad",
+    "nutritionFacts": {
+      "calories": "230",
+      "totalFat": "10%",
+      "cholesterol": "0%"
+    }
+  },
+  {
+    "id": 4,
+    "categoryId": "dishes",
+    "productId": "pizza",
+    "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
+    "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+    "imageFullURL": "deserts-pankakes-full.jpg",
+    "imageThumbURL": "deserts-pankakes-thumb.jpg",
+    "ingredients": [
+      { "id": 0, "name": "Brocoli", "icon": "🥦" },
+      { "id": 1, "name": "Carrots", "icon": "🥕" },
+      { "id": 2, "name": "Tomato", "icon": "🍅" }
+    ],
+    "name": "Salad",
+    "nutritionFacts": {
+      "calories": "230",
+      "totalFat": "10%",
+      "cholesterol": "0%"
+    }
+  },
+  {
+    "id": 5,
+    "categoryId": "dishes",
+    "productId": "salad",
+    "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
+    "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+    "imageFullURL": "deserts-pankakes-full.jpg",
+    "imageThumbURL": "deserts-pankakes-thumb.jpg",
+    "ingredients": [
+      { "id": 0, "name": "Brocoli", "icon": "🥦" },
+      { "id": 1, "name": "Carrots", "icon": "🥕" },
+      { "id": 2, "name": "Tomato", "icon": "🍅" }
+    ],
+    "name": "Salad",
+    "nutritionFacts": {
+      "calories": "230",
+      "totalFat": "10%",
+      "cholesterol": "0%"
+    }
+  },
+  {
+    "id": 6,
+    "categoryId": "drinks",
+    "productId": "lemonade",
+    "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
+    "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+    "imageFullURL": "deserts-pankakes-full.jpg",
+    "imageThumbURL": "deserts-pankakes-thumb.jpg",
+    "ingredients": [
+      { "id": 0, "name": "Brocoli", "icon": "🥦" },
+      { "id": 1, "name": "Carrots", "icon": "🥕" },
+      { "id": 2, "name": "Tomato", "icon": "🍅" }
+    ],
+    "name": "Salad",
+    "nutritionFacts": {
+      "calories": "230",
+      "totalFat": "10%",
+      "cholesterol": "0%"
+    }
+  },
+  {
+    "id": 7,
+    "categoryId": "drinks",
+    "productId": "tomato",
+    "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
+    "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+    "imageFullURL": "deserts-pankakes-full.jpg",
+    "imageThumbURL": "deserts-pankakes-thumb.jpg",
+    "ingredients": [
+      { "id": 0, "name": "Brocoli", "icon": "🥦" },
+      { "id": 1, "name": "Carrots", "icon": "🥕" },
+      { "id": 2, "name": "Tomato", "icon": "🍅" }
+    ],
+    "name": "Salad",
+    "nutritionFacts": {
+      "calories": "230",
+      "totalFat": "10%",
+      "cholesterol": "0%"
+    }
+  },
+  {
+    "id": 8,
+    "categoryId": "drinks",
+    "productId": "watermelon",
+    "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
+    "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+    "imageFullURL": "deserts-pankakes-full.jpg",
+    "imageThumbURL": "deserts-pankakes-thumb.jpg",
+    "ingredients": [
+      { "id": 0, "name": "Brocoli", "icon": "🥦" },
+      { "id": 1, "name": "Carrots", "icon": "🥕" },
+      { "id": 2, "name": "Tomato", "icon": "🍅" }
+    ],
+    "name": "Salad",
+    "nutritionFacts": {
+      "calories": "230",
+      "totalFat": "10%",
+      "cholesterol": "0%"
+    }
+  }
+]
