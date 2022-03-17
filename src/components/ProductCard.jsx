@@ -10,8 +10,6 @@ export default function ProductCard({ item }) {
   // Properties
   let imageURL = "";
 
-  console.log(imageThumbURL);
-
   // Safeguard
   try {
     imageURL = require(`../assets/images/products/${imageThumbURL}`);
