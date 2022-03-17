@@ -5,14 +5,16 @@ import { Link } from "react-router-dom";
 import FatalErrorImage from "assets/images/flame-fatal-error-2.png";
 
 export default function ProductCard({ item }) {
-  const { productId, description, imageThumb, name } = item;
+  const { productId, descriptionShort, imageThumbURL, name } = item;
 
   // Properties
   let imageURL = "";
 
+  console.log(imageThumbURL);
+
   // Safeguard
   try {
-    imageURL = require(`../assets/images/product/${imageThumb}`);
+    imageURL = require(`../assets/images/products/${imageThumbURL}`);
   } catch {
     imageURL = FatalErrorImage;
   }
@@ -21,7 +23,7 @@ export default function ProductCard({ item }) {
     <Link to={`/product/${productId}`}>
       <img src={imageURL} alt="Thumbnail of the product" />
       <h3>{name}</h3>
-      <p>{description}</p>
+      <p>{descriptionShort}</p>
     </Link>
   );
 }

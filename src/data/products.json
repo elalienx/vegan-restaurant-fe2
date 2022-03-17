@@ -12,7 +12,7 @@
       { "id": 1, "name": "Carrots", "icon": "🥕" },
       { "id": 2, "name": "Tomato", "icon": "🍅" }
     ],
-    "name": "Salad",
+    "name": "Pankakes with jelly",
     "nutritionFacts": {
       "calories": "230",
       "totalFat": "10%",
@@ -32,7 +32,7 @@
       { "id": 1, "name": "Carrots", "icon": "🥕" },
       { "id": 2, "name": "Tomato", "icon": "🍅" }
     ],
-    "name": "Salad",
+    "name": "Toasted berrys with butter",
     "nutritionFacts": {
       "calories": "230",
       "totalFat": "10%",
@@ -52,7 +52,7 @@
       { "id": 1, "name": "Carrots", "icon": "🥕" },
       { "id": 2, "name": "Tomato", "icon": "🍅" }
     ],
-    "name": "Salad",
+    "name": "Velvet cake",
     "nutritionFacts": {
       "calories": "230",
       "totalFat": "10%",
@@ -65,14 +65,14 @@
     "productId": "mediterranean-salad",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
     "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    "imageFullURL": "deserts-mediterranean-salad-full.jpg",
-    "imageThumbURL": "deserts-mediterranean-salad-thumb.jpg",
+    "imageFullURL": "dishes-mediterranean-salad-full.jpg",
+    "imageThumbURL": "dishes-mediterranean-salad-thumb.jpg",
     "ingredients": [
       { "id": 0, "name": "Brocoli", "icon": "🥦" },
       { "id": 1, "name": "Carrots", "icon": "🥕" },
       { "id": 2, "name": "Tomato", "icon": "🍅" }
     ],
-    "name": "Salad",
+    "name": "Mediterranian diet salad",
     "nutritionFacts": {
       "calories": "230",
       "totalFat": "10%",
@@ -85,14 +85,14 @@
     "productId": "pizza",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
     "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    "imageFullURL": "deserts-pizza-full.jpg",
-    "imageThumbURL": "deserts-pizza-thumb.jpg",
+    "imageFullURL": "dishes-pizza-full.jpg",
+    "imageThumbURL": "dishes-pizza-thumb.jpg",
     "ingredients": [
       { "id": 0, "name": "Brocoli", "icon": "🥦" },
       { "id": 1, "name": "Carrots", "icon": "🥕" },
       { "id": 2, "name": "Tomato", "icon": "🍅" }
     ],
-    "name": "Salad",
+    "name": "Pizza",
     "nutritionFacts": {
       "calories": "230",
       "totalFat": "10%",
@@ -105,14 +105,14 @@
     "productId": "salad",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
     "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    "imageFullURL": "deserts-salad-full.jpg",
-    "imageThumbURL": "deserts-salad-thumb.jpg",
+    "imageFullURL": "dishes-salad-full.jpg",
+    "imageThumbURL": "dishes-salad-thumb.jpg",
     "ingredients": [
       { "id": 0, "name": "Brocoli", "icon": "🥦" },
       { "id": 1, "name": "Carrots", "icon": "🥕" },
       { "id": 2, "name": "Tomato", "icon": "🍅" }
     ],
-    "name": "Salad",
+    "name": "Caesar salad",
     "nutritionFacts": {
       "calories": "230",
       "totalFat": "10%",
@@ -125,14 +125,14 @@
     "productId": "lemonade",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
     "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    "imageFullURL": "deserts-lemonade-full.jpg",
-    "imageThumbURL": "deserts-lemonade-thumb.jpg",
+    "imageFullURL": "drinks-lemonade-full.jpg",
+    "imageThumbURL": "drinks-lemonade-thumb.jpg",
     "ingredients": [
       { "id": 0, "name": "Brocoli", "icon": "🥦" },
       { "id": 1, "name": "Carrots", "icon": "🥕" },
       { "id": 2, "name": "Tomato", "icon": "🍅" }
     ],
-    "name": "Salad",
+    "name": "Lemonade",
     "nutritionFacts": {
       "calories": "230",
       "totalFat": "10%",
@@ -145,14 +145,14 @@
     "productId": "tomato",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
     "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    "imageFullURL": "deserts-tomato-full.jpg",
-    "imageThumbURL": "deserts-tomato-thumb.jpg",
+    "imageFullURL": "drinks-tomato-full.jpg",
+    "imageThumbURL": "drinks-tomato-thumb.jpg",
     "ingredients": [
       { "id": 0, "name": "Brocoli", "icon": "🥦" },
       { "id": 1, "name": "Carrots", "icon": "🥕" },
       { "id": 2, "name": "Tomato", "icon": "🍅" }
     ],
-    "name": "Salad",
+    "name": "Tomato with ginger",
     "nutritionFacts": {
       "calories": "230",
       "totalFat": "10%",
@@ -165,14 +165,14 @@
     "productId": "watermelon",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
     "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    "imageFullURL": "deserts-watermelon-full.jpg",
-    "imageThumbURL": "deserts-watermelon-thumb.jpg",
+    "imageFullURL": "drinks-watermelon-full.jpg",
+    "imageThumbURL": "drinks-watermelon-thumb.jpg",
     "ingredients": [
       { "id": 0, "name": "Brocoli", "icon": "🥦" },
       { "id": 1, "name": "Carrots", "icon": "🥕" },
       { "id": 2, "name": "Tomato", "icon": "🍅" }
     ],
-    "name": "Salad",
+    "name": "Watermelon vitamin water",
     "nutritionFacts": {
       "calories": "230",
       "totalFat": "10%",
