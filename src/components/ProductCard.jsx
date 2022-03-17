@@ -12,7 +12,7 @@ export default function ProductCard({ item }) {
 
   // Safeguard
   try {
-    imageURL = require(`../assets/images/categories/${imageThumb}`);
+    imageURL = require(`../assets/images/product/${imageThumb}`);
   } catch {
     imageURL = FatalErrorImage;
   }
