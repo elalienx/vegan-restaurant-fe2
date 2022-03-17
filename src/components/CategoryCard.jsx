@@ -5,15 +5,15 @@ import { Link } from "react-router-dom";
 import FatalErrorImage from "assets/images/flame-fatal-error-2.png";
 
 export default function CategoryCard({ item }) {
-  const { categoryId, description, imageThumb, name } = item;
+  const { categoryId, description, imageThumbURL, name } = item;
 
   // Properties
   let imageURL = "";
 
   // Safeguard
   try {
-    imageURL = require(`../assets/images/categories/${imageThumb}`);
-  } catch {
+    imageURL = require(`../assets/images/categories/${imageThumbURL}`);
+  } catch (error) {
     imageURL = FatalErrorImage;
   }
 
