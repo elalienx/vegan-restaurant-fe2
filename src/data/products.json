@@ -1,6 +1,7 @@
 [
   {
     "id": 0,
+    "alt": "8 pankakes stacked in a plate, covered with bananas and honey",
     "categoryId": "deserts",
     "productId": "pankakes",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
@@ -21,6 +22,7 @@
   },
   {
     "id": 1,
+    "alt": "3 pieces of roasted bread with blueberries and butter",
     "categoryId": "deserts",
     "productId": "toasted-berries",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
@@ -41,6 +43,7 @@
   },
   {
     "id": 2,
+    "alt": "A slice of velved cake with 3 berries on top",
     "categoryId": "deserts",
     "productId": "velvet-cake",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
@@ -61,6 +64,7 @@
   },
   {
     "id": 3,
+    "alt": "A salad with nuts and both green and black olives",
     "categoryId": "dishes",
     "productId": "mediterranean-salad",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
@@ -81,6 +85,7 @@
   },
   {
     "id": 4,
+    "alt": "A vegan pizza with pineaple and onions",
     "categoryId": "dishes",
     "productId": "pizza",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
@@ -101,6 +106,7 @@
   },
   {
     "id": 5,
+    "alt": "Thumbnail of the product",
     "categoryId": "dishes",
     "productId": "salad",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
@@ -121,6 +127,7 @@
   },
   {
     "id": 6,
+    "alt": "Thumbnail of the product",
     "categoryId": "drinks",
     "productId": "lemonade",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
@@ -141,6 +148,7 @@
   },
   {
     "id": 7,
+    "alt": "Thumbnail of the product",
     "categoryId": "drinks",
     "productId": "tomato",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
@@ -161,6 +169,7 @@
   },
   {
     "id": 8,
+    "alt": "Thumbnail of the product",
     "categoryId": "drinks",
     "productId": "watermelon",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",

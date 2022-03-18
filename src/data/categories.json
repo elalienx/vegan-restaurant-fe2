@@ -1,6 +1,7 @@
 [
   {
     "id": 0,
+    "alt": "3 plates with meat replacement of chickend, beef, and pork",
     "categoryId": "dishes",
     "description": "Everything from salads to vegan burgers",
     "name": "Dishes",
@@ -9,6 +10,7 @@
   },
   {
     "id": 1,
+    "alt": "2 plates with oatmeal and strawberries",
     "categoryId": "deserts",
     "name": "Deserts",
     "description": "Lacto and egg free deserts.",
@@ -17,6 +19,7 @@
   },
   {
     "id": 2,
+    "alt": "3 glasses aligned horizontally",
     "categoryId": "drinks",
     "name": "Drinks",
     "description": "Cold drinks for the summer.",

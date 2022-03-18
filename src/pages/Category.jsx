@@ -29,7 +29,7 @@ export default function Category() {
     <div id="categoy">
       <ImageAsset
         src={`categories/${category.imageFullURL}`}
-        alt="The category image in full size"
+        alt={category.alt}
       />
       <h1>{category.name}</h1>
       <p>{category.description}</p>

@@ -25,10 +25,7 @@ export default function Product() {
 
   return (
     <div id="product">
-      <ImageAsset
-        src={`products/${product.imageFullURL}`}
-        alt="Product display at full size"
-      />
+      <ImageAsset src={`products/${product.imageFullURL}`} alt={product.alt} />
       <h1>{product.name}</h1>
       <p>{product.descriptionLong}</p>
       <section>
