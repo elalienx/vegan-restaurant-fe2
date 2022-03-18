@@ -25,29 +25,37 @@ export default function Product() {
 
   return (
     <div id="product">
-      <ImageAsset src={`products/${product.imageFullURL}`} alt={product.alt} />
-      <h1>{product.name}</h1>
-      <p>{product.descriptionLong}</p>
-      <section>
-        <h2>Ingredients</h2>
-        <ul>{Ingredients}</ul>
-      </section>
-      <section>
-        <h2>Nutrition facts</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Element</th>
-              <th>Value</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Calories:</td>
-              <td>{product.nutritionFacts.calories}</td>
-            </tr>
-          </tbody>
-        </table>
+      <header className="hero">
+        {/* Refactor, remove the image and use a CSS background image */}
+        <ImageAsset
+          src={`products/${product.imageFullURL}`}
+          alt={product.alt}
+        />
+      </header>
+      <section className="container">
+        <h1>{product.name}</h1>
+        <p>{product.descriptionLong}</p>
+        <section>
+          <h2>Ingredients</h2>
+          <ul>{Ingredients}</ul>
+        </section>
+        <section>
+          <h2>Nutrition facts</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Element</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Calories:</td>
+                <td>{product.nutritionFacts.calories}</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
       </section>
     </div>
   );

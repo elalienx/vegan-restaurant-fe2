@@ -27,13 +27,17 @@ export default function Category() {
 
   return (
     <div id="categoy">
-      <ImageAsset
-        src={`categories/${category.imageFullURL}`}
-        alt={category.alt}
-      />
-      <h1>{category.name}</h1>
-      <p>{category.description}</p>
-      <section className="products">{Products}</section>
+      <header className="hero">
+        <ImageAsset
+          src={`categories/${category.imageFullURL}`}
+          alt={category.alt}
+        />
+      </header>
+      <section className="container">
+        <h1>{category.name}</h1>
+        <p>{category.description}</p>
+        <section className="products">{Products}</section>
+      </section>
     </div>
   );
 }

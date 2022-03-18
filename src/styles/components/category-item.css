@@ -1,0 +1,33 @@
+.category-item {
+}
+
+.category-item:nth-child(even) {
+  background-color: lightgoldenrodyellow;
+}
+.category-item:nth-child(odd) {
+  background-color: lightblue;
+}
+
+@media (min-width: 750px) {
+  .category-item {
+    display: flex;
+  }
+
+  .category-item img {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .category-item .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
+  .category-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}

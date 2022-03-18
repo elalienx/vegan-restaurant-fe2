@@ -2,4 +2,6 @@
   background-color: lightblue;
   display: block;
   color: navy;
+  padding-bottom: 24px;
+  margin-bottom: 24px; /* refactor */
 }

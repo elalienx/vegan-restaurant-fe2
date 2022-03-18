@@ -1,4 +1,5 @@
 // Project files
+import HeroImage from "assets/images/home-hero.jpg";
 import CategoryItem from "components/CategoryItem";
 import categories from "data/categories.json";
 
@@ -10,8 +11,10 @@ export default function Home() {
 
   return (
     <div id="home">
-      <h1>Home</h1>
-      <section className="categories">{Categories}</section>
+      <header className="hero">
+        <h1>Home</h1>
+      </header>
+      <section className="container categories">{Categories}</section>
     </div>
   );
 }
