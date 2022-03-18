@@ -2,14 +2,14 @@
 import { Link } from "react-router-dom";
 
 // Project files
-import Image from "components/Image";
+import ImageAsset from "components/ImageAsset";
 
-export default function CategoryCard({ item }) {
+export default function CategoryItem({ item }) {
   const { categoryId, description, imageThumbURL, name } = item;
 
   return (
-    <article>
-      <Image
+    <article className="category-item">
+      <ImageAsset
         src={`categories/${imageThumbURL}`}
         alt="Thumbnail of the category"
       />

@@ -1,11 +1,11 @@
 // Project files
-import CategoryCard from "components/CategoryCard";
+import CategoryItem from "components/CategoryItem";
 import categories from "data/categories.json";
 
 export default function Home() {
   // Components
   const Categories = categories.map((item) => (
-    <CategoryCard key={item.id} item={item} />
+    <CategoryItem key={item.id} item={item} />
   ));
 
   return (
