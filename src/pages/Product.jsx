@@ -28,14 +28,16 @@ export default function Product() {
   return (
     <div id="product">
       <header className="hero">
-        {/* Refactor, remove the image and use a CSS background image */}
+        <div className="content">
+          <h1>{product.name}</h1>
+        </div>
         <ImageAsset
           src={`products/${product.imageFullURL}`}
           alt={product.alt}
         />
       </header>
       <section className="container">
-        <h1>{product.name}</h1>
+        <h2>About</h2>
         <p>{product.descriptionLong}</p>
         {/* Ingredients */}
         <section>
@@ -60,7 +62,9 @@ export default function Product() {
             </tbody>
           </table>
         </section>
-        <button onClick={() => navigate(-1)}>Go back to menu</button>
+        <button className="button" onClick={() => navigate(-1)}>
+          Go back to menu
+        </button>
       </section>
     </div>
   );

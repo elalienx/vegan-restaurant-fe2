@@ -20,6 +20,7 @@ img {
 .container {
   margin: var(--space-medium);
   margin-top: -100px; /* to appear on top of the hero */
+  margin-bottom: var(--space-big);
   padding: var(--space-medium);
   border-radius: var(--border-radius);
   background-color: var(--color-background);
@@ -30,5 +31,6 @@ img {
     max-width: 960px; /* to avoid going to the borders of the screen on big monitors */
     margin: 0 auto; /* to center the container on big monitors */
     margin-top: -200px; /* to appear on top of the hero */
+    margin-bottom: var(--space-ultra);
   }
 }

@@ -1,15 +1,38 @@
 .hero {
+  --height: 400px;
+  position: relative;
+  height: var(--height);
+}
+
+.hero img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: var(--height);
+  object-fit: cover;
+  filter: contrast(0.5);
+}
+
+.hero .content {
+  height: var(--height);
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  height: 400px;
-  background-repeat: none;
-  background-size: cover;
+  align-items: center;
+}
+
+.hero .content h1 {
   text-align: center;
 }
 
 @media (min-width: 750px) {
   .hero {
-    height: 600px;
+    --height: 600px;
+  }
+  .hero,
+  .hero img,
+  .hero .content {
+    height: var(--height);
   }
 }

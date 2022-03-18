@@ -1,7 +1,3 @@
-#home .hero {
-  background-image: url("../../assets/images/home-hero.jpg");
-}
-
 #home h2 {
   text-align: center;
 }
@@ -30,16 +26,14 @@
     flex-direction: row-reverse; /* to rever its position only on desktop */
   }
 
-  /* Optional details to look pretty */
+  /* Optional to make the border radius prettier */
   #home .category-item {
     border-radius: 0;
   }
-  #home .category-item:first-child {
-    border-radius: var(--border-radius);
-    background-color: red !important;
-    opacity: 0.5;
+  #home .category-item:first-of-type {
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
   }
-  #home .category-item:last-child {
+  #home .category-item:last-of-type {
     border-radius: 0 0 var(--border-radius) var(--border-radius);
   }
 }

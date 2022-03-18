@@ -2,7 +2,7 @@
   display: inline-block; /* to allow <a> behave close to the real <button> tag*/
   min-width: 80px;
   margin: 0;
-  padding: var(--space-small);
+  padding: var(--space-small) var(--space-big);
   background-color: var(--color-primary);
   border: none;
   border-radius: var(--border-radius);

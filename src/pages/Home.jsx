@@ -1,6 +1,6 @@
 // Project files
-import HeroImage from "assets/images/home-hero.jpg";
 import CategoryItem from "components/CategoryItem";
+import ImageAsset from "components/ImageAsset";
 import categories from "data/categories.json";
 
 export default function Home() {
@@ -16,6 +16,10 @@ export default function Home() {
           <h1>A new culinary experience</h1>
           <span>Bringing innovative recipes to Stockholm</span>
         </div>
+        <ImageAsset
+          src={`home-hero.jpg`}
+          alt={"A salad on the right side of the screen"}
+        />
       </header>
       <section className="container categories">
         <h2>Our menu:</h2>
