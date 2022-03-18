@@ -2,7 +2,7 @@
 import { useParams } from "react-router-dom";
 
 // Project file
-import FatalErrorImage from "assets/images/flame-fatal-error-2.png";
+import ImageAsset from "components/ImageAsset";
 import ErrorMessage from "components/ErrorMessage";
 import ProductItem from "components/ProductItem";
 import categories from "data/categories.json";
@@ -16,15 +16,9 @@ export default function Category() {
   const filteredProducts = products.filter(
     (item) => item.categoryId === categoryId
   );
-  let imageURL = "";
 
   // Safeguard
   if (category === undefined) return <ErrorMessage />;
-  try {
-    imageURL = require(`../assets/images/categories/${category.imageFullURL}`);
-  } catch {
-    imageURL = FatalErrorImage;
-  }
 
   // Components
   const Products = filteredProducts.map((item) => (
@@ -33,7 +27,10 @@ export default function Category() {
 
   return (
     <div id="categoy">
-      {/* <img src={imageURL} alt="The category image in full size" /> */}
+      <ImageAsset
+        src={`categories/${category.imageThumbURL}`}
+        alt="The category image in full size"
+      />
       <h1>{category.name}</h1>
       <p>{category.description}</p>
       <section className="products">{Products}</section>
