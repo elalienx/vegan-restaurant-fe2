@@ -9,13 +9,12 @@ import categories from "data/categories.json";
 import products from "data/products.json";
 
 export default function Category() {
-  const { categoryId } = useParams();
+  const { id } = useParams();
 
   // Properties
-  const category = categories.find((item) => item.categoryId === categoryId);
-  const filteredProducts = products.filter(
-    (item) => item.categoryId === categoryId
-  );
+  const category = categories.find((item) => item.id === id);
+  console.log("category", category);
+  const filteredProducts = products.filter((item) => item.id === id);
 
   // Safeguard
   if (category === undefined) return <ErrorMessage />;

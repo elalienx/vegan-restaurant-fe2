@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import ImageAsset from "components/ImageAsset";
 
 export default function CategoryItem({ item }) {
-  const { alt, categoryId, description, imageThumbURL, name } = item;
+  const { id, alt, description, imageThumbURL, name } = item;
 
   return (
     <article className="category-item">
@@ -13,7 +13,7 @@ export default function CategoryItem({ item }) {
       <div className="content">
         <h3>{name}</h3>
         <p>{description}</p>
-        <Link className="button" to={`/menu/${categoryId}`}>
+        <Link className="button" to={`/menu/${id}`}>
           View {name}
         </Link>
       </div>
