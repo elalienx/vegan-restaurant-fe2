@@ -1,12 +1,24 @@
 #home .hero {
   background-image: url("../../assets/images/home-hero.jpg");
-  height: 100vh;
-  background-repeat: none;
-  background-size: cover;
+}
+
+#home h2 {
+  text-align: center;
 }
 
 #home .category-item {
   margin-bottom: 24px;
+}
+
+#home .category-item:last-child {
+  margin-bottom: 0; /* so the last .category-item don't have a margin bottom */
+}
+
+#home .category-item:nth-child(even) {
+  background-color: var(--color-primary);
+}
+#home .category-item:nth-child(odd) {
+  background-color: var(--color-secondary);
 }
 
 @media (min-width: 750px) {

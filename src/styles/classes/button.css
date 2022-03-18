@@ -1,0 +1,6 @@
+.button {
+  display: inline-block;
+  min-width: 80px;
+  background-color: var(--color-primary);
+  opacity: 0.5;
+}

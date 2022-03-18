@@ -12,9 +12,15 @@ export default function Home() {
   return (
     <div id="home">
       <header className="hero">
-        <h1>Home</h1>
+        <div className="content">
+          <h1>Carrot</h1>
+          <span>The best vegan restaurant in town</span>
+        </div>
       </header>
-      <section className="container categories">{Categories}</section>
+      <section className="container categories">
+        <h2>Our menu:</h2>
+        {Categories}
+      </section>
     </div>
   );
 }

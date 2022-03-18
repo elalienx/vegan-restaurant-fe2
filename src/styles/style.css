@@ -4,6 +4,10 @@
 @import "./base/typography.css";
 @import "./base/layout.css";
 
+/* Classes */
+@import "./classes/button.css";
+@import "./classes/hero.css";
+
 /* Components */
 @import "./components/category-item.css";
 @import "./components/product-item.css";

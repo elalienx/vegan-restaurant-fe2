@@ -1,7 +1,9 @@
 /* Colors */
 :root {
-  --color-primary: var(--swatch-blue);
-  --color-text: #333333;
+  --color-primary: var(--swatch-green);
+  --color-secondary: var(--swatch-violet);
+  --color-background: var(--swatch-salmon);
+  --color-text: var(--swatch-smoke);
 }
 
 /* Space */
@@ -10,4 +12,9 @@
   --space-medium: 16px;
   --space-big: 24px;
   --space-ultra: 48px;
+}
+
+/* Other */
+:root {
+  --border-radius: 8px;
 }

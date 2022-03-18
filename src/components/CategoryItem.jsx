@@ -13,7 +13,9 @@ export default function CategoryItem({ item }) {
       <div className="content">
         <h3>{name}</h3>
         <p>{description}</p>
-        <Link to={`/menu/${categoryId}`}>View {name}</Link>
+        <Link className="button" to={`/menu/${categoryId}`}>
+          View {name}
+        </Link>
       </div>
     </article>
   );

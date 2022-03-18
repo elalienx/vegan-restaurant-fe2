@@ -12,19 +12,19 @@ h3 {
 }
 
 h1 {
-  margin-bottom: var(--space-ultra);
-}
-
-h2 {
   margin-bottom: var(--space-big);
 }
 
-h3 {
+h2 {
   margin-bottom: var(--space-medium);
+}
+
+h3 {
+  margin-bottom: var(--space-small);
 }
 
 p,
 button {
   font-size: 18px;
-  margin-bottom: var(--space-medium);
+  margin-bottom: var(--space-small);
 }
