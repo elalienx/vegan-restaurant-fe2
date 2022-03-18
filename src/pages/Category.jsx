@@ -28,7 +28,7 @@ export default function Category() {
   return (
     <div id="categoy">
       <ImageAsset
-        src={`categories/${category.imageThumbURL}`}
+        src={`categories/${category.imageFullURL}`}
         alt="The category image in full size"
       />
       <h1>{category.name}</h1>

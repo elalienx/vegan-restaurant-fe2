@@ -26,7 +26,7 @@ export default function Product() {
   return (
     <div id="product">
       <ImageAsset
-        src={`products/${product.imageThumbURL}`}
+        src={`products/${product.imageFullURL}`}
         alt="Product display at full size"
       />
       <h1>{product.name}</h1>

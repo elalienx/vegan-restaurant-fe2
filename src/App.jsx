@@ -7,6 +7,7 @@ import Category from "pages/Category";
 import Contact from "pages/Contact";
 import Home from "pages/Home";
 import Product from "pages/Product";
+import "styles/style.css";
 
 export default function App() {
   return (
