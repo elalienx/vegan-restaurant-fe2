@@ -1,0 +1,35 @@
+#navigation-bar {
+  box-sizing: border-box;
+  padding: var(--space-small);
+  background-color: var(--color-primary);
+  color: white;
+  text-align: center;
+}
+
+#navigation-bar .logo {
+  width: 120px;
+  margin-bottom: var(--space-small);
+}
+
+#navigation-bar .menu-links a {
+  margin: 0 var(--space-small);
+  color: white;
+  text-decoration: none;
+}
+
+#navigation-bar .menu-links a:hover {
+  text-decoration: underline;
+}
+
+/* Desktop */
+@media (min-width: 750px) {
+  #navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #navigation-bar .logo {
+    margin-bottom: 0;
+  }
+}
