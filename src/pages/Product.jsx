@@ -5,6 +5,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import ImageAsset from "components/ImageAsset";
 import ErrorMessage from "components/ErrorMessage";
 import products from "data/products.json";
+import NutritionTable from "components/NutritionTable";
 
 export default function Product() {
   // Global state
@@ -47,20 +48,7 @@ export default function Product() {
         {/* Nutrition facts */}
         <section>
           <h2>Nutrition facts</h2>
-          <table>
-            <thead>
-              <tr>
-                <th>Element</th>
-                <th>Value</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Calories:</td>
-                <td>{product.nutritionFacts.calories}</td>
-              </tr>
-            </tbody>
-          </table>
+          <NutritionTable data={product.nutritionFacts} />
         </section>
         <button className="button" onClick={() => navigate(-1)}>
           Go back to menu

@@ -10,8 +10,10 @@ export default function ProductItem({ item }) {
   return (
     <Link className="product-item" to={`/product/${productId}`}>
       <ImageAsset src={`products/${imageThumbURL}`} alt={alt} />
-      <h3>{name}</h3>
-      <p>{descriptionShort}</p>
+      <div className="content">
+        <h3>{name}</h3>
+        <p>{descriptionShort}</p>
+      </div>
     </Link>
   );
 }

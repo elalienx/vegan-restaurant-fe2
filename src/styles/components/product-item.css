@@ -1,7 +1,34 @@
 .product-item {
-  background-color: lightblue;
   display: block;
-  color: navy;
-  padding-bottom: 24px;
-  margin-bottom: 24px; /* refactor */
+  background-color: var(--color-primary);
+  color: white;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+}
+
+.product-item:hover {
+  background-color: var(--color-secondary);
+}
+
+.product-item .content {
+  padding: var(--space-big);
+}
+
+@media (min-width: 750px) {
+  .product-item {
+    display: flex;
+  }
+  .product-item img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .product-item .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
 }
