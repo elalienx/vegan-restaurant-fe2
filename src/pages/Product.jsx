@@ -15,6 +15,14 @@ export default function Product() {
   // Safeguard
   if (product === undefined) return <ErrorMessage />;
 
+  // Components
+  const Ingredients = product.ingredients.map((item) => (
+    <li key={item.id} className="ingredient">
+      <span>{item.icon}</span>
+      {item.name}
+    </li>
+  ));
+
   return (
     <div id="product">
       <ImageAsset
@@ -23,6 +31,27 @@ export default function Product() {
       />
       <h1>{product.name}</h1>
       <p>{product.descriptionLong}</p>
+      <section>
+        <h2>Ingredients</h2>
+        <ul>{Ingredients}</ul>
+      </section>
+      <section>
+        <h2>Nutrition facts</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Element</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Calories:</td>
+              <td>{product.nutritionFacts.calories}</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </div>
   );
 }
