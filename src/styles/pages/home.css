@@ -25,4 +25,21 @@
   #home .category-item {
     margin-bottom: 0;
   }
+
+  #home .category-item:nth-child(odd) {
+    flex-direction: row-reverse; /* to rever its position only on desktop */
+  }
+
+  /* Optional details to look pretty */
+  #home .category-item {
+    border-radius: 0;
+  }
+  #home .category-item:first-child {
+    border-radius: var(--border-radius);
+    background-color: red !important;
+    opacity: 0.5;
+  }
+  #home .category-item:last-child {
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+  }
 }

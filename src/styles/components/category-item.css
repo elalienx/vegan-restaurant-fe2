@@ -1,5 +1,7 @@
 .category-item {
-  background-color: var(--color-background);
+  background-color: var(
+    --color-background
+  ); /* default color regardless of if is even or odd*/
   color: white;
   border-radius: var(--border-radius);
   overflow: hidden; /* to make the radius apply to the images as well */
@@ -10,14 +12,24 @@
   padding: var(--space-medium);
 }
 
+.category-item .button {
+  background: none; /* change the style of the default buttons */
+  border: solid 1px white;
+  color: white;
+}
+
 @media (min-width: 750px) {
   .category-item {
     display: flex;
   }
 
-  .category-item img {
+  .category-item img,
+  .category-item .content {
     width: 50%;
     height: 400px;
+  }
+
+  .category-item img {
     object-fit: cover;
   }
 
@@ -26,10 +38,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
-  }
-
-  .category-item:nth-child(even) {
-    flex-direction: row-reverse;
   }
 }

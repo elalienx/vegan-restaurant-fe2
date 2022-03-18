@@ -1,6 +1,12 @@
 .button {
-  display: inline-block;
+  display: inline-block; /* to allow <a> behave close to the real <button> tag*/
   min-width: 80px;
+  margin: 0;
+  padding: var(--space-small);
   background-color: var(--color-primary);
-  opacity: 0.5;
+  border: none;
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  color: white;
+  font-family: "Mulish", sans-serif;
 }

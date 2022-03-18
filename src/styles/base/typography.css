@@ -24,6 +24,7 @@ h3 {
 }
 
 p,
+a,
 button {
   font-size: 18px;
   margin-bottom: var(--space-small);

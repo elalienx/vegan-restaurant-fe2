@@ -3,7 +3,7 @@
   --color-primary: var(--swatch-green);
   --color-secondary: var(--swatch-violet);
   --color-background: var(--swatch-salmon);
-  --color-text: var(--swatch-smoke);
+  --color-text: var(--swatch-wood);
 }
 
 /* Space */
@@ -16,5 +16,5 @@
 
 /* Other */
 :root {
-  --border-radius: 8px;
+  --border-radius: var(--space-big);
 }

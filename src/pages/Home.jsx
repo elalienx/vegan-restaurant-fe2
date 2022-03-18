@@ -13,8 +13,8 @@ export default function Home() {
     <div id="home">
       <header className="hero">
         <div className="content">
-          <h1>Carrot</h1>
-          <span>The best vegan restaurant in town</span>
+          <h1>A new culinary experience</h1>
+          <span>Bringing innovative recipes to Stockholm</span>
         </div>
       </header>
       <section className="container categories">
