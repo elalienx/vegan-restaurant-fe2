@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 // Project file
 import FatalErrorImage from "assets/images/flame-fatal-error-2.png";
 import ErrorMessage from "components/ErrorMessage";
-import ProductCard from "components/ProductCard";
+import ProductItem from "components/ProductItem";
 import categories from "data/categories.json";
 import products from "data/products.json";
 
@@ -28,7 +28,7 @@ export default function Category() {
 
   // Components
   const Products = filteredProducts.map((item) => (
-    <ProductCard key={item.id} item={item} />
+    <ProductItem key={item.id} item={item} />
   ));
 
   return (

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // Project files
 import FatalErrorImage from "assets/images/flame-fatal-error-2.png";
 
-export default function ProductCard({ item }) {
+export default function ProductItem({ item }) {
   const { productId, descriptionShort, imageThumbURL, name } = item;
 
   // Properties
