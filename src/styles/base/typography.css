@@ -1,0 +1,31 @@
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "PT Serif", serif;
+}
+
+h1 {
+  margin-bottom: var(--space-ultra);
+}
+
+h2 {
+  margin-bottom: var(--space-big);
+}
+
+h3 {
+  margin-bottom: var(--space-medium);
+}
+
+p,
+a,
+button {
+  font-size: 18px;
+  margin-bottom: var(--space-medium);
+}

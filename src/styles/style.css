@@ -1,8 +1,7 @@
 /* Base */
-/* 1 Swatches */
-/* 2 Variables */
-/* 3 Typogragpy */
-/* 4 Layout */
+@import "./base/swatches.css";
+@import "./base/variables.css";
+@import "./base/typography.css";
 @import "./base/layout.css";
 
 /* Components */
