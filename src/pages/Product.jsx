@@ -1,5 +1,5 @@
 // NPM packages
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 
 // Project files
 import ImageAsset from "components/ImageAsset";
@@ -7,7 +7,9 @@ import ErrorMessage from "components/ErrorMessage";
 import products from "data/products.json";
 
 export default function Product() {
+  // Global state
   const { productId } = useParams();
+  const navigate = useNavigate();
 
   // Properties
   const product = products.find((item) => item.productId === productId);
@@ -35,10 +37,12 @@ export default function Product() {
       <section className="container">
         <h1>{product.name}</h1>
         <p>{product.descriptionLong}</p>
+        {/* Ingredients */}
         <section>
           <h2>Ingredients</h2>
           <ul>{Ingredients}</ul>
         </section>
+        {/* Nutrition facts */}
         <section>
           <h2>Nutrition facts</h2>
           <table>
@@ -56,6 +60,7 @@ export default function Product() {
             </tbody>
           </table>
         </section>
+        <button onClick={() => navigate(-1)}>Go back to menu</button>
       </section>
     </div>
   );
