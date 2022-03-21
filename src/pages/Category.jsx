@@ -10,22 +10,18 @@ import products from "data/products.json";
 
 export default function Category() {
   const { id } = useParams();
-  console.log("id", id);
 
   // Properties
   const category = categories.find((item) => item.id === id);
-  console.log("category", category);
-  console.log("products", products);
   const filteredProducts = products.filter((item) => item.categoryId === id);
-  console.log("filteredProducts", filteredProducts);
-
-  // Safeguard
-  if (category === undefined) return <ErrorMessage />;
 
   // Components
   const Products = filteredProducts.map((item) => (
     <ItemProduct key={item.id} item={item} />
   ));
+
+  // Safeguard
+  if (category === undefined) return <ErrorMessage />;
 
   return (
     <div id="categoy">

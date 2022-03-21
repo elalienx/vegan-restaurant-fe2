@@ -16,13 +16,13 @@ export default function Product() {
   // Properties
   const product = products.find((item) => item.id === productId);
 
-  // Safeguard
-  if (product === undefined) return <ErrorMessage />;
-
   // Components
   const Ingredients = product.ingredients.map((item) => (
     <ItemIngredient key={item.id} item={item} />
   ));
+
+  // Safeguard
+  if (product === undefined) return <ErrorMessage />;
 
   return (
     <div id="product">
