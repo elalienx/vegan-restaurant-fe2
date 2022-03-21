@@ -29,9 +29,6 @@
     height: 400px;
   }
 
-  .item-category img {
-  }
-
   .item-category .content {
     display: flex;
     flex-direction: column;

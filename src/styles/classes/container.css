@@ -1,4 +1,5 @@
 .container {
+  box-sizing: border-box;
   margin: var(--space-medium);
   margin-top: -100px; /* to appear on top of the hero */
   margin-bottom: var(--space-big);

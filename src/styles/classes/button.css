@@ -1,4 +1,5 @@
 .button {
+  box-sizing: border-box;
   display: inline-block; /* to make the <a> behave close to the real <button> tag */
   min-width: 80px; /* to make sure that buttons with short words appear wide enough */
   margin: 0;

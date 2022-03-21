@@ -37,7 +37,6 @@ export default function Product() {
         <ul>{Ingredients}</ul>
         <h2>Nutrition facts</h2>
         <NutritionTable data={product.nutritionFacts} />
-        <hr />
         <button className="button" onClick={() => navigate(-1)}>
           Go back to menu
         </button>

@@ -11,6 +11,7 @@
 }
 
 .item-product .content {
+  box-sizing: border-box;
   padding: var(--space-big);
 }
 
