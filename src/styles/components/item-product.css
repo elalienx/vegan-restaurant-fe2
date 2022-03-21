@@ -1,3 +1,8 @@
+/*
+  About item-product.css
+  This is the style of the React component ItemProduct.jsx.
+  Is the component that appears on the Category.jsx page.
+*/
 .item-product {
   background-color: var(--color-primary);
   color: white;

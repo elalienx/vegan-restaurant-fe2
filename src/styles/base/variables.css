@@ -1,3 +1,11 @@
+/* 
+  About variables.css
+  This files mainly focus on:
+  - colors taken from swatches.css and assign a contenxt like what is the primary color, the text color, etc.
+  - space variables to use for margin and padding, so the website has a consistent look by having a specific sizes.
+  - other variables as the name says, holds any other variable that need to be used across many CSS files.
+*/
+
 /* Colors */
 :root {
   --color-primary: var(--swatch-green);

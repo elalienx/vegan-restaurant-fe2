@@ -1,3 +1,8 @@
+/*
+  About item-category.css
+  This is the style of the React component ItemCategory.jsx.
+  Is the component that appears on the Home.jsx page.
+*/
 .item-category {
   background-color: var(
     --color-primary

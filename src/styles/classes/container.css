@@ -1,3 +1,8 @@
+/*
+  About container.css
+  In this particular Vegan Restaurant project, 
+  this file handles the "salmon colored page" that holds all the information in each page.
+*/
 .container {
   box-sizing: border-box;
   margin: var(--space-medium);

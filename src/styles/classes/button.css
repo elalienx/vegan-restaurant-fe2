@@ -1,3 +1,8 @@
+/*
+  About button.css
+  This is NOT a React component.
+  This is a simple CSS class that can be apply to any <button>, <a>, <Link> or similar to make it look like a button.
+*/
 .button {
   box-sizing: border-box;
   display: inline-block; /* to make the <a> behave close to the real <button> tag */

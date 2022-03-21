@@ -1,3 +1,8 @@
+/*
+  About hero.css
+  This is NOT a React component.
+  This file handles the header tag that appears on every page.
+*/
 .hero {
   --height: 400px;
   position: relative; /* this is neccesary to make the img positioniing work in relation to the .hero instead of the whole page */

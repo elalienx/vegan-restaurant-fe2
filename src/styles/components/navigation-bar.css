@@ -1,3 +1,8 @@
+/*
+  About navigation-bar.css
+  This is the style of the React component NavigationBar.jsx.
+  Is the component that appears on top of every page.
+*/
 #navigation-bar {
   box-sizing: border-box;
   padding: var(--space-small);
