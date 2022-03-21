@@ -12,6 +12,14 @@ export default function NutritionTable({ data }) {
           <td>Calories:</td>
           <td>{data.calories}</td>
         </tr>
+        <tr>
+          <td>Total fats:</td>
+          <td>{data.totalFats}</td>
+        </tr>
+        <tr>
+          <td>Cholesterol:</td>
+          <td>{data.cholesterol}</td>
+        </tr>
       </tbody>
     </table>
   );

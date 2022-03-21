@@ -3,7 +3,6 @@ import FatalErrorImage from "assets/images/flame-fatal-error-2.png";
 
 export default function Image({ src, alt = "" }) {
   // Properties
-
   const assetsPath = require.context("assets/images/", true);
   let imageSource = "";
 

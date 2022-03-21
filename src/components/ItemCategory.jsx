@@ -13,7 +13,7 @@ export default function ItemCategory({ item }) {
       <div className="content">
         <h3>{name}</h3>
         <p>{description}</p>
-        <Link className="button" to={`/menu/${id}`}>
+        <Link className="button" to={`menu/${id}`}>
           View {name}
         </Link>
       </div>
