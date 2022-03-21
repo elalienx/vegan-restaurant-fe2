@@ -10,8 +10,8 @@
 @import "./classes/hero.css";
 
 /* Components */
-@import "./components/category-item.css";
-@import "./components/product-item.css";
+@import "./components/item-category.css";
+@import "./components/item-product.css";
 @import "./components/navigation-bar.css";
 
 /* Pages */

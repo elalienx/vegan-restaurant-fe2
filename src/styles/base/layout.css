@@ -1,3 +1,7 @@
+/**
+  About layout.css
+  This file, has the global rules for webpage.
+*/
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=PT+Serif&display=swap");
 
 body {
@@ -5,14 +9,21 @@ body {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; /* to avoid any image to be wider than the screen in either mobile or desktop */
+  height: auto; /* to keep the proportions of the image */
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0; /* we reset the margin top, so we focus on aligning our items using only margin-bottom instead of both margin-top and margin-bottom */
 }
 
 .App {
   font-family: "Mulish", sans-serif;
-  font-smooth: always;
+  font-smooth: always; /* to make the text look better on macOS */
+  -webkit-font-smoothing: antialiased; /* more rules to make the text look better */
+  -moz-osx-font-smoothing: grayscale; /* more rules to make the text look better */
   color: var(--color-text);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }

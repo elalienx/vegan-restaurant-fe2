@@ -1,12 +1,5 @@
 h1,
 h2,
-h3,
-p {
-  margin: 0;
-}
-
-h1,
-h2,
 h3 {
   font-family: "PT Serif", serif;
 }
@@ -26,6 +19,6 @@ h3 {
 p,
 a,
 button {
-  font-size: 18px;
+  font-size: 18px; /* to make sure that our paragraphs, button and links have the same size */
   margin-bottom: var(--space-small);
 }

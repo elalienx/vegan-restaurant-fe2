@@ -7,11 +7,12 @@
   background-color: var(--color-background);
 }
 
+/* Desktop */
 @media (min-width: 750px) {
   .container {
-    max-width: 960px; /* to avoid going to the borders of the screen on big monitors */
+    max-width: 960px; /* to avoid the container going to the borders of the screen on big monitors */
     margin: 0 auto; /* to center the container on big monitors */
-    margin-top: -200px; /* to appear on top of the hero */
+    margin-top: -200px; /* the hero is taller on desktop, so we re-adjust the margin-top */
     margin-bottom: var(--space-ultra);
   }
 }

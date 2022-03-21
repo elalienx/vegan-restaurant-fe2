@@ -1,12 +1,12 @@
 .button {
-  display: inline-block; /* to allow <a> behave close to the real <button> tag*/
-  min-width: 80px;
+  display: inline-block; /* to make the <a> behave close to the real <button> tag */
+  min-width: 80px; /* to make sure that buttons with short words appear wide enough */
   margin: 0;
-  padding: var(--space-small) var(--space-big);
+  padding: var(--space-small) var(--space-big); /* the first var handles the top and bottom padding, the second var handles the left and right padding */
   background-color: var(--color-primary);
+  color: white;
   border: none;
   border-radius: var(--border-radius);
-  text-decoration: none;
-  color: white;
   font-family: "Mulish", sans-serif;
+  text-decoration: none; /* to remove the underline of <a> when we want to make them look like buttons */
 }

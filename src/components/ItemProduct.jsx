@@ -8,7 +8,7 @@ export default function ItemProduct({ item }) {
   const { id, alt, descriptionShort, imageThumbURL, name } = item;
 
   return (
-    <Link className="product-item" to={`/product/${id}`}>
+    <Link className="item-product" to={`/product/${id}`}>
       <ImageAsset src={`products/${imageThumbURL}`} alt={alt} />
       <div className="content">
         <h3>{name}</h3>

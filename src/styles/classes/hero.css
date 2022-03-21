@@ -1,17 +1,19 @@
 .hero {
   --height: 400px;
-  position: relative;
+  position: relative; /* this is neccesary to make the img positioniing work in relation to the .hero instead of the whole page */
   height: var(--height);
 }
 
 .hero img {
+  z-index: -1; /* to appear behind the .content */
   position: absolute;
   top: 0;
-  z-index: -1;
   width: 100%;
   height: var(--height);
   object-fit: cover;
-  filter: contrast(0.5);
+  filter: contrast(
+    0.5
+  ); /* to make the image opaque making the content on top easier to read */
 }
 
 .hero .centered-content {

@@ -1,4 +1,4 @@
-.category-item {
+.item-category {
   background-color: var(
     --color-background
   ); /* default color regardless of if is even or odd*/
@@ -7,33 +7,33 @@
   overflow: hidden; /* to make the radius apply to the images as well */
 }
 
-.category-item .content {
+.item-category .content {
   box-sizing: border-box;
   padding: var(--space-medium);
 }
 
-.category-item .button {
+.item-category .button {
   background: none; /* change the style of the default buttons */
   border: solid 1px white;
   color: white;
 }
 
 @media (min-width: 750px) {
-  .category-item {
+  .item-category {
     display: flex;
   }
 
-  .category-item img,
-  .category-item .content {
+  .item-category img,
+  .item-category .content {
     width: 50%;
     height: 400px;
   }
 
-  .category-item img {
+  .item-category img {
     object-fit: cover;
   }
 
-  .category-item .content {
+  .item-category .content {
     display: flex;
     flex-direction: column;
     justify-content: center;

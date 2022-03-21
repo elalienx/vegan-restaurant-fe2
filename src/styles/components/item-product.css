@@ -1,4 +1,4 @@
-.product-item {
+.item-product {
   display: block;
   background-color: var(--color-primary);
   color: white;
@@ -7,25 +7,25 @@
   border-radius: var(--border-radius);
 }
 
-.product-item:hover {
+.item-product:hover {
   background-color: var(--color-secondary);
 }
 
-.product-item .content {
+.item-product .content {
   padding: var(--space-big);
 }
 
 @media (min-width: 750px) {
-  .product-item {
+  .item-product {
     display: flex;
   }
-  .product-item img {
+  .item-product img {
     width: 250px;
     height: 250px;
     object-fit: cover;
   }
 
-  .product-item .content {
+  .item-product .content {
     display: flex;
     flex-direction: column;
     justify-content: center;

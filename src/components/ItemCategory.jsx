@@ -8,7 +8,7 @@ export default function ItemCategory({ item }) {
   const { id, alt, description, imageThumbURL, name } = item;
 
   return (
-    <article className="category-item">
+    <article className="item-category">
       <ImageAsset src={`categories/${imageThumbURL}`} alt={alt} />
       <div className="content">
         <h3>{name}</h3>
