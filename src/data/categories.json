@@ -3,24 +3,24 @@
     "id": "dishes",
     "alt": "3 plates with meat replacement of chickend, beef, and pork",
     "description": "Everything from salads to vegan burgers",
-    "name": "Dishes",
     "imageURL": "dishes-full.jpg",
-    "imageThumbURL": "dishes-thumb.jpg"
+    "imageThumbURL": "dishes-thumb.jpg",
+    "name": "Dishes"
   },
   {
     "id": "deserts",
     "alt": "2 plates with oatmeal and strawberries",
-    "name": "Deserts",
     "description": "Lacto and egg free deserts.",
     "imageURL": "deserts-full.jpg",
-    "imageThumbURL": "deserts-thumb.jpg"
+    "imageThumbURL": "deserts-thumb.jpg",
+    "name": "Deserts"
   },
   {
     "id": "drinks",
     "alt": "3 glasses aligned horizontally",
-    "name": "Drinks",
     "description": "Cold drinks for the summer.",
     "imageURL": "drinks-full.jpg",
-    "imageThumbURL": "drinks-thumb.jpg"
+    "imageThumbURL": "drinks-thumb.jpg",
+    "name": "Drinks"
   }
 ]
