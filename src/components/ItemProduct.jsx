@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 import ImageAsset from "components/ImageAsset";
 
 export default function ItemProduct({ item }) {
-  const { alt, productId, descriptionShort, imageThumbURL, name } = item;
+  const { id, alt, descriptionShort, imageThumbURL, name } = item;
 
   return (
-    <Link className="product-item" to={`/product/${productId}`}>
+    <Link className="product-item" to={`/product/${id}`}>
       <ImageAsset src={`products/${imageThumbURL}`} alt={alt} />
       <div className="content">
         <h3>{name}</h3>

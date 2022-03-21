@@ -6,6 +6,7 @@
 
 /* Classes */
 @import "./classes/button.css";
+@import "./classes/container.css";
 @import "./classes/hero.css";
 
 /* Components */

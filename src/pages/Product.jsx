@@ -14,7 +14,7 @@ export default function Product() {
   const navigate = useNavigate();
 
   // Properties
-  const product = products.find((item) => item.productId === productId);
+  const product = products.find((item) => item.id === productId);
 
   // Safeguard
   if (product === undefined) return <ErrorMessage />;
@@ -28,10 +28,7 @@ export default function Product() {
     <div id="product">
       <header className="hero">
         <h1 className="centered-content">{product.name}</h1>
-        <ImageAsset
-          src={`products/${product.imageFullURL}`}
-          alt={product.alt}
-        />
+        <ImageAsset src={`products/${product.imageURL}`} alt={product.alt} />
       </header>
       <section className="container">
         <h2>About {product.name}</h2>
@@ -40,6 +37,7 @@ export default function Product() {
         <ul>{Ingredients}</ul>
         <h2>Nutrition facts</h2>
         <NutritionTable data={product.nutritionFacts} />
+        <hr />
         <button className="button" onClick={() => navigate(-1)}>
           Go back to menu
         </button>

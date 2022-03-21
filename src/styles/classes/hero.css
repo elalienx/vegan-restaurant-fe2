@@ -14,7 +14,7 @@
   filter: contrast(0.5);
 }
 
-.hero .content {
+.hero .centered-content {
   height: var(--height);
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-.hero .content h1 {
+.hero .centered-content h1 {
   text-align: center;
 }
 
@@ -32,7 +32,7 @@
   }
   .hero,
   .hero img,
-  .hero .content {
+  .hero .centered-content {
     height: var(--height);
   }
 }

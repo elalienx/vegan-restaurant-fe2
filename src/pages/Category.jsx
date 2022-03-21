@@ -10,10 +10,14 @@ import products from "data/products.json";
 
 export default function Category() {
   const { id } = useParams();
+  console.log("id", id);
 
   // Properties
   const category = categories.find((item) => item.id === id);
-  const filteredProducts = products.filter((item) => item.id === id);
+  console.log("category", category);
+  console.log("products", products);
+  const filteredProducts = products.filter((item) => item.categoryId === id);
+  console.log("filteredProducts", filteredProducts);
 
   // Safeguard
   if (category === undefined) return <ErrorMessage />;
@@ -28,12 +32,12 @@ export default function Category() {
       <header className="hero">
         <h1 className="centered-content">{category.name}</h1>
         <ImageAsset
-          src={`categories/${category.imageFullURL}`}
+          src={`categories/${category.imageURL}`}
           alt={category.alt}
         />
       </header>
       <section className="container">
-        <h2>Our top choices</h2>
+        <h2>Our top {category.name}</h2>
         <p>{category.description}</p>
         <section className="products">{Products}</section>
       </section>
