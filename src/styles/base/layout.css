@@ -11,6 +11,7 @@ body {
 img {
   max-width: 100%; /* to avoid any image to be wider than the screen in either mobile or desktop */
   height: auto; /* to keep the proportions of the image */
+  object-fit: cover; /* to image the image distortion when we change the width and/or height */
 }
 
 h1,

@@ -10,7 +10,6 @@
   top: 0;
   width: 100%;
   height: var(--height);
-  object-fit: cover;
   filter: contrast(
     0.5
   ); /* to make the image opaque making the content on top easier to read */

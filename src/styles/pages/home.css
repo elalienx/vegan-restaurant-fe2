@@ -2,38 +2,38 @@
   text-align: center;
 }
 
-#home .category-item {
+#home .item-category {
   margin-bottom: 24px;
 }
 
-#home .category-item:last-child {
-  margin-bottom: 0; /* so the last .category-item don't have a margin bottom */
+#home .item-category:last-child {
+  margin-bottom: 0; /* so the last .item-category don't have a margin bottom */
 }
 
-#home .category-item:nth-child(even) {
+#home .item-category:nth-child(even) {
   background-color: var(--color-primary);
 }
-#home .category-item:nth-child(odd) {
+#home .item-category:nth-child(odd) {
   background-color: var(--color-secondary);
 }
 
 @media (min-width: 750px) {
-  #home .category-item {
+  #home .item-category {
     margin-bottom: 0;
   }
 
-  #home .category-item:nth-child(odd) {
+  #home .item-category:nth-child(odd) {
     flex-direction: row-reverse; /* to rever its position only on desktop */
   }
 
   /* Optional to make the border radius prettier */
-  #home .category-item {
+  #home .item-category {
     border-radius: 0;
   }
-  #home .category-item:first-of-type {
+  #home .item-category:first-of-type {
     border-radius: var(--border-radius) var(--border-radius) 0 0;
   }
-  #home .category-item:last-of-type {
+  #home .item-category:last-of-type {
     border-radius: 0 0 var(--border-radius) var(--border-radius);
   }
 }

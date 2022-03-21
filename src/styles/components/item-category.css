@@ -1,10 +1,10 @@
 .item-category {
   background-color: var(
-    --color-background
+    --color-primary
   ); /* default color regardless of if is even or odd*/
   color: white;
   border-radius: var(--border-radius);
-  overflow: hidden; /* to make the radius apply to the images as well */
+  overflow: hidden; /* to make the radius apply to the image as well */
 }
 
 .item-category .content {
@@ -25,12 +25,11 @@
 
   .item-category img,
   .item-category .content {
-    width: 50%;
+    width: 50%; /* forcing each element to be hald width, otherwise the image that are bigger will make the content look narrow */
     height: 400px;
   }
 
   .item-category img {
-    object-fit: cover;
   }
 
   .item-category .content {
