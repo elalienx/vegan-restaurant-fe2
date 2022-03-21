@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 // Project file
 import ImageAsset from "components/ImageAsset";
 import ErrorMessage from "components/ErrorMessage";
-import ProductItem from "components/ProductItem";
+import ItemProduct from "components/ItemProduct";
 import categories from "data/categories.json";
 import products from "data/products.json";
 
@@ -13,7 +13,6 @@ export default function Category() {
 
   // Properties
   const category = categories.find((item) => item.id === id);
-  console.log("category", category);
   const filteredProducts = products.filter((item) => item.id === id);
 
   // Safeguard
@@ -21,15 +20,13 @@ export default function Category() {
 
   // Components
   const Products = filteredProducts.map((item) => (
-    <ProductItem key={item.id} item={item} />
+    <ItemProduct key={item.id} item={item} />
   ));
 
   return (
     <div id="categoy">
       <header className="hero">
-        <div className="content">
-          <h1>{category.name}</h1>
-        </div>
+        <h1 className="centered-content">{category.name}</h1>
         <ImageAsset
           src={`categories/${category.imageFullURL}`}
           alt={category.alt}

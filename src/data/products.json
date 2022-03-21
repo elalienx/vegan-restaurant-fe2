@@ -5,7 +5,7 @@
     "alt": "8 pankakes stacked in a plate, covered with bananas and honey",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
     "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    "imageFullURL": "deserts-pankakes-full.jpg",
+    "imageURL": "deserts-pankakes-full.jpg",
     "imageThumbURL": "deserts-pankakes-thumb.jpg",
     "ingredients": [
       { "id": 0, "name": "Brocoli", "icon": "🥦" },
@@ -25,7 +25,7 @@
     "alt": "3 pieces of roasted bread with blueberries and butter",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
     "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    "imageFullURL": "deserts-toasted-berries-full.jpg",
+    "imageURL": "deserts-toasted-berries-full.jpg",
     "imageThumbURL": "deserts-toasted-berries-thumb.jpg",
     "ingredients": [
       { "id": 0, "name": "Brocoli", "icon": "🥦" },
@@ -45,7 +45,7 @@
     "alt": "A slice of velved cake with 3 berries on top",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
     "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    "imageFullURL": "deserts-velvet-cake-full.jpg",
+    "imageURL": "deserts-velvet-cake-full.jpg",
     "imageThumbURL": "deserts-velvet-cake-thumb.jpg",
     "ingredients": [
       { "id": 0, "name": "Brocoli", "icon": "🥦" },
@@ -65,7 +65,7 @@
     "alt": "A salad with nuts and both green and black olives",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
     "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    "imageFullURL": "dishes-mediterranean-salad-full.jpg",
+    "imageURL": "dishes-mediterranean-salad-full.jpg",
     "imageThumbURL": "dishes-mediterranean-salad-thumb.jpg",
     "ingredients": [
       { "id": 0, "name": "Brocoli", "icon": "🥦" },
@@ -85,7 +85,7 @@
     "alt": "A vegan pizza with pineaple and onions",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
     "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    "imageFullURL": "dishes-pizza-full.jpg",
+    "imageURL": "dishes-pizza-full.jpg",
     "imageThumbURL": "dishes-pizza-thumb.jpg",
     "ingredients": [
       { "id": 0, "name": "Brocoli", "icon": "🥦" },
@@ -105,7 +105,7 @@
     "alt": "Thumbnail of the product",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
     "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    "imageFullURL": "dishes-salad-full.jpg",
+    "imageURL": "dishes-salad-full.jpg",
     "imageThumbURL": "dishes-salad-thumb.jpg",
     "ingredients": [
       { "id": 0, "name": "Brocoli", "icon": "🥦" },
@@ -125,7 +125,7 @@
     "alt": "Thumbnail of the product",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
     "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    "imageFullURL": "drinks-lemonade-full.jpg",
+    "imageURL": "drinks-lemonade-full.jpg",
     "imageThumbURL": "drinks-lemonade-thumb.jpg",
     "ingredients": [
       { "id": 0, "name": "Brocoli", "icon": "🥦" },
@@ -145,7 +145,7 @@
     "alt": "Thumbnail of the product",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
     "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    "imageFullURL": "drinks-tomato-full.jpg",
+    "imageURL": "drinks-tomato-full.jpg",
     "imageThumbURL": "drinks-tomato-thumb.jpg",
     "ingredients": [
       { "id": 0, "name": "Brocoli", "icon": "🥦" },
@@ -165,7 +165,7 @@
     "alt": "Thumbnail of the product",
     "descriptionLong": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nobis sed quod possimus totam illum animi quibusdam aspernatur aut ducimus. Quisquam veniam tenetur iusto quod, ipsum libero ex autem provident!",
     "descriptionShort": "Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    "imageFullURL": "drinks-watermelon-full.jpg",
+    "imageURL": "drinks-watermelon-full.jpg",
     "imageThumbURL": "drinks-watermelon-thumb.jpg",
     "ingredients": [
       { "id": 0, "name": "Brocoli", "icon": "🥦" },

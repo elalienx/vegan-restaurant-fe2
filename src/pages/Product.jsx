@@ -6,6 +6,7 @@ import ImageAsset from "components/ImageAsset";
 import ErrorMessage from "components/ErrorMessage";
 import products from "data/products.json";
 import NutritionTable from "components/NutritionTable";
+import ItemIngredient from "components/ItemIngredient";
 
 export default function Product() {
   // Global state
@@ -20,36 +21,25 @@ export default function Product() {
 
   // Components
   const Ingredients = product.ingredients.map((item) => (
-    <li key={item.id} className="ingredient">
-      <span>{item.icon}</span>
-      {item.name}
-    </li>
+    <ItemIngredient key={item.id} item={item} />
   ));
 
   return (
     <div id="product">
       <header className="hero">
-        <div className="content">
-          <h1>{product.name}</h1>
-        </div>
+        <h1 className="centered-content">{product.name}</h1>
         <ImageAsset
           src={`products/${product.imageFullURL}`}
           alt={product.alt}
         />
       </header>
       <section className="container">
-        <h2>About</h2>
+        <h2>About {product.name}</h2>
         <p>{product.descriptionLong}</p>
-        {/* Ingredients */}
-        <section>
-          <h2>Ingredients</h2>
-          <ul>{Ingredients}</ul>
-        </section>
-        {/* Nutrition facts */}
-        <section>
-          <h2>Nutrition facts</h2>
-          <NutritionTable data={product.nutritionFacts} />
-        </section>
+        <h2>Ingredients</h2>
+        <ul>{Ingredients}</ul>
+        <h2>Nutrition facts</h2>
+        <NutritionTable data={product.nutritionFacts} />
         <button className="button" onClick={() => navigate(-1)}>
           Go back to menu
         </button>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // Project files
 import ImageAsset from "components/ImageAsset";
 
-export default function ProductItem({ item }) {
+export default function ItemProduct({ item }) {
   const { alt, productId, descriptionShort, imageThumbURL, name } = item;
 
   return (

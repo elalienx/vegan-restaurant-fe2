@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // Project files
 import ImageAsset from "components/ImageAsset";
 
-export default function CategoryItem({ item }) {
+export default function ItemCategory({ item }) {
   const { id, alt, description, imageThumbURL, name } = item;
 
   return (
